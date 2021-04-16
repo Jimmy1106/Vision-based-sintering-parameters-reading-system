@@ -34,14 +34,14 @@
 
 - Read temperature value of the sintering furnace.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="" width="250">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/eWPFPiS.png" width="">
 
 
 ### **Sintering-current reading**
 
 - Read ammeter value of the sintering furnace.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="" width="250">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="" width="">
 
 
 <br>
