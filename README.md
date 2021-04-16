@@ -12,9 +12,15 @@
 
 ## **Overview** 
 
-<!-- - Camera installation. -->
+### Installation
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/oWpjqW6.png" width="">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/Q4dpbUT.png" width="">
+
+
+### Flow
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/umNz96L.png" width="">
+
 
 
 <br>
