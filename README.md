@@ -41,7 +41,7 @@
 
 - Read ammeter value of the sintering furnace.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="" width="">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/NUbuGvi.png" width="">
 
 
 <br>
