@@ -22,22 +22,49 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/umNz96L.png" width="">
 
 
+<br>
+
+## **Pre-settings**
+
+Set up parameters of the temperature reading & Electric current reading.
+
+### **Temperature reading**
+
+- Determine location of the ROI.
+- Determine size of the ROI.
+- Determine quantites of the ROI.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/MPOmwwD.png" width="">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/lIpB4gI.png" width="">
+
+
+
+### **Electric current reading**
+
+- Determine location of the ROI.
+- Determine size of the ROI.
+- Determine quantites of the ROI.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="" width="">
+
+
 
 <br>
 
+## **Vision-based-sintering-parameters-reading** 
+<!-- ## **Features**  -->
 
-## **Features** 
 
 
-
-### **Sintering-temperature reading**
+### **Temperature reading**
 
 - Read temperature value of the sintering furnace.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/eWPFPiS.png" width="">
 
 
-### **Sintering-current reading**
+### **Electric current reading**
 
 - Read ammeter value of the sintering furnace.
 
