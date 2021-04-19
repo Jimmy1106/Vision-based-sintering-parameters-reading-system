@@ -2,10 +2,10 @@
 <!--  title: 'Vision-based-sintering-parameters-reading-system' -->
 <!-- --- -->
 
-# **Vision-based-sintering-parameters-reading-system**
+# **Vision-based sintering parameters reading system**
 
-* Composed of Digit recognition module & Analog meter recognition module.
-* Developed with A, B, C, etc.
+* Allow temperature reading & electric current reading.
+* Developed with Raspbian, OpenCV, scikit-learn, etc.
 
 <br>
 
@@ -17,42 +17,50 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/Q4dpbUT.png" width="">
 
 
-### Flow
+### User flow
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/umNz96L.png" width="">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/REH1HVo.png" width="">
 
 
 <br>
 
 ## **Pre-settings**
 
-Set up parameters of the temperature reading & Electric current reading.
+Set up parameters for temperature reading & Electric current reading.
+
+<br>
 
 ### **Temperature reading**
 
-- Determine location of the ROI.
-- Determine size of the ROI.
-- Determine quantites of the ROI.
+- Localize the meter & obtain meter image by a perspective cropping.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/MPOmwwD.png" width="">
+
+- Determine the size, quantity, and location of interested digits.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/lIpB4gI.png" width="">
 
 
 
+<br>
+
 ### **Electric current reading**
 
-- Determine location of the ROI.
-- Determine size of the ROI.
-- Determine quantites of the ROI.
+- Localize the meter & obtain meter image by a perspective cropping.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="" width="">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/lgXTYkc.png" width="">
+
+
+- Localize the scales & determine the amperage between scales.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/LxBMF5q.png" width="">
+
 
 
 
 <br>
 
-## **Vision-based-sintering-parameters-reading** 
+## **Vision-based sintering parameters reading** 
 <!-- ## **Features**  -->
 
 
@@ -66,7 +74,7 @@ Set up parameters of the temperature reading & Electric current reading.
 
 ### **Electric current reading**
 
-- Read ammeter value of the sintering furnace.
+- Read current value of the sintering furnace.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/NUbuGvi.png" width="">
 
