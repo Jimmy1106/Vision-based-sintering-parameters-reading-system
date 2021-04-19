@@ -4,8 +4,8 @@
 
 # **Vision-based sintering parameters reading system**
 
-* Allow temperature reading & electric current reading.
 * Developed with Raspbian, OpenCV, scikit-learn, etc.
+* Allow temperature reading & electric current reading.
 
 <br>
 
