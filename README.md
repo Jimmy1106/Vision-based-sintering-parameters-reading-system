@@ -94,7 +94,7 @@ Set up parameters for temperature reading & electric current reading.
 
         pip install scikit-learn==0.22 scikit-image==0.14.2 numpy==1.17.4
 
-- **Step2**: Run the script with image path to get recognized digit
+- **Step2**: Run the script with image path to get recognized result on your screen
 
         python recognize_single_digit.py digit5.jpg
 
