@@ -2,7 +2,7 @@
 <!--  title: 'Vision-based-sintering-parameters-reading-system' -->
 <!-- --- -->
 
-# **Vision-based sintering parameters reading system**
+# **Vision-based sintering factors reading system**
 
 * Developed with Raspbian, OpenCV, scikit-learn, etc.
 * Allow temperature reading & electric current reading.
@@ -61,7 +61,7 @@ Set up parameters for temperature reading & electric current reading.
 
 <br>
 
-## **Vision-based sintering parameters reading** 
+## **Vision-based sintering factors reading** 
 <!-- ## **Features**  -->
 
 
