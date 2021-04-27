@@ -14,17 +14,17 @@ classifier_img_size = (26,18)
 
 def getDigitString():
 
-    clf = load(classifier_path)
+    classifier = load(classifier_path)
 
     # Preprocessing
     img = cv2.imread(img_path)
     gray_img = cv2.cvtColor( img, cv2.COLOR_BGR2GRAY)
-    img_resized = resize(gray_img, classifier_img_size, anti_aliasing=True, mode='reflect')
+    resized_img = resize(gray_img, classifier_img_size, anti_aliasing=True, mode='reflect')
 
-    flat_data = numpy.expand_dims(img_resized.flatten(),axis=0)
+    flatten_data = numpy.expand_dims(resized_img.flatten(),axis=0)
 
     # Classification
-    result = clf.predict(flat_data)[0]
+    result = classifier.predict(flatten_data)[0]
 
     return result
     
