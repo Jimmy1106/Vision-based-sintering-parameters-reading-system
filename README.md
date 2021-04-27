@@ -6,6 +6,7 @@
 
 * Developed with Raspbian, OpenCV, scikit-learn, etc.
 * Allow temperature reading & electric current reading.
+* The SVM classifier trained by 12000 seven-segment digit images is [available](#Usage-of-classifier). 
 
 <br>
 
@@ -26,7 +27,7 @@
 
 ## **Pre-settings**
 
-Set up parameters for temperature reading & Electric current reading.
+Set up parameters for temperature reading & electric current reading.
 
 <br>
 
@@ -85,6 +86,17 @@ Set up parameters for temperature reading & Electric current reading.
 ## **Demo video** 
 
 * [Demo影片(中文)](https://www.youtube.com/watch?v=seJtVJjiknA)
+
+
+## **Usage of classifier**
+
+- **Step1**: Use following command to install required packages
+
+        pip install scikit-learn==0.22 scikit-image==0.14.2 numpy==1.17.4
+
+- **Step2**: Run the script with image path to get recognized digit
+
+        python recognize_single_digit.py digit5.jpg
 
 
 
